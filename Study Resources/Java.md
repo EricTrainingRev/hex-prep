@@ -1,0 +1,11 @@
+# Java Study Resources
+- [Baeldung](https://www.baeldung.com/java-tutorial)
+    - lots of great resources for learning about Java. Primarily Spring focused, but they have core Java tutorials and articles as well
+- [TutorialsPoint](https://www.tutorialspoint.com/java/index.htm)
+    - a comprehensive resource for learning more about Java, and well organized. 
+        - the articles are sometimes out of data on this website, so it is often a good idea to check whatever you read from this website to confirm what you are learning is accurate.
+- [W3Schools](https://www.w3schools.com/java/)
+    - another comprehensive resource for learning about Java
+        - a bit simpler than TutorialsPoint, but their articles and tutorials usually get to practical implementation faster than the previous resources. Similar to before, the articles are sometimes out of date.
+- [GeeksForGeeks](https://www.geeksforgeeks.org/java/)
+    - another well organized collection of tutorials for working with Java
