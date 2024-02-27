@@ -24,3 +24,46 @@
 - when and why would you use public/private variables?
 - how would you add spaces in a string and reverse it?
 - how do you create a main method?
+
+## Testing Software
+- what is the difference between assertEquals & assertSame?
+- do you know TestNG?
+- do you know Junit?
+- what is Mockito?
+- what is a runner?
+
+## Selenium
+- what is Selenium?
+- how do you set up Selenium?
+- what locaters does Selenium have?
+- what is Xpath?
+- what is a WebDriver?
+    - how do you start a WebDriver?
+    - what is the specific syntax?
+- how do you get a website URL with Selenium?
+- how do you select elements with Selenium?
+    - what ways can you select elements?
+- how do you send information to a webpage with Selenium?
+- what is a wait?
+    - what kind of waits are there?
+    - how do they differ?
+- how do you generate a Selenium report?
+- what is the preferred locater, if it is available?
+- what is a Page Object Model (POM)?
+- what is the Actions class?
+- how would you validate a login was successful?
+- where do you put the Selenium dependency?
+- where would you use JavaScript with Selenium?
+
+## Cucumber
+- what is Cucumber?
+- what is the difference between a Feature and a Scenario?
+- what is a feature file?
+- how do you download Cucumber?
+- how is Cucumber used in automation?
+- how do feature file runs?
+- give an example scenario
+- why use Cucumber and Selenium together?
+- how would you design a login feature?
+- What is Gherkin?
+    - what are the different key words in Gherkin?

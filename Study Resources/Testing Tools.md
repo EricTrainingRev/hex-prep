@@ -1,0 +1,12 @@
+- [Junit4](https://junit.org/junit4/)
+    - documentation and usage examples for Junit4
+- [Junit5](https://junit.org/junit5/)
+    - documentation and usage examples for Junit5
+- [TestNG](https://testng.org/)
+    - documentation and usage examples for TestNG
+- [Cucumber](https://cucumber.io/docs/cucumber/)
+    - documentation and usage examples for Cucumber
+- [Selenium](https://www.selenium.dev/documentation/)
+    - documentation and (sometimes) usage examples for Selenium
+- [Mockito](https://site.mockito.org/)
+    - documentation and usage examples for Mockito
