@@ -135,7 +135,7 @@ fabric.properties
 .ionide
 
 testing/target/
-testing/.vscoode/
+testing/.vscode/
 testing/.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,jetbrains+all
