@@ -138,4 +138,6 @@ testing/target/
 testing/.vscode/
 testing/.idea/
 
+testing/src/test/resources/chromedriver.exe
+
 # End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,jetbrains+all
