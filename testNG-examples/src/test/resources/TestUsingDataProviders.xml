@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Using Data provider" verbose="1" >
+    <test name="Data provided" verbose="1">
+        <parameter name="number" value="3"/>
+        <parameter name="isOdd" value="true"/>
+        <classes>
+            <class name="org.revature.data.TestUsingDataProviders"/>
+        </classes>
+    </test>
+</suite>

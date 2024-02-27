@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Using Groups" verbose="1" >
+    <test name="using groups" verbose="1">
+        <groups>
+            <run>
+                <include name="add"/>
+                <exclude name="subtract"/>
+            </run>
+        </groups>
+        <classes>
+            <!-- All tests in the "add" group will be executed, not those in subtract -->
+            <class name="org.revature.basics.TestGroupsProgrammatic"/>
+        </classes>
+    </test>
+</suite>

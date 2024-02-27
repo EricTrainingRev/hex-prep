@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Ignoring Test Suite" verbose="1" >
+    <test name="Data provided" verbose="1">
+        <classes>
+            <class name="org.revature.basics.IgnoringTest">
+                <methods>
+                    <exclude name="ignoredTestViaXML"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

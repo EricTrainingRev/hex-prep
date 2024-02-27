@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- See POM for Maven Surefire Plugin setup to use this xml file -->
+<suite name="Suite collection">
+    <suite-files>
+        <suite-file path="UnitTestSuite.xml"/>
+        <suite-file path="TestGroupsProgrammatic.xml"/>
+        <suite-file path="TestUsingDataProviders.xml"/>
+        <suite-file path="IgnoringTest.xml"/>
+    </suite-files>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite Test Name" verbose="1" >
+    <test name="basic unit test setup">
+        <classes>
+            <!-- Note all tests in this class will execute -->
+            <class name="org.revature.basics.UnitTests"/>
+        </classes>
+    </test>
+</suite>
