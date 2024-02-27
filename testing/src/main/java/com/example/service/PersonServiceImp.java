@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import com.example.dao.PersonDao;
-import com.example.dao.PersonNotFound;
+import com.example.exceptions.PersonNotFound;
 import com.example.exceptions.NameTooLong;
 import com.example.exceptions.PersonCreationFailed;
 import com.example.model.Person;

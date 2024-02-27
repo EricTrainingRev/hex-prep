@@ -1,4 +1,4 @@
-package com.example.dao;
+package com.example.exceptions;
 
 public class PersonNotFound extends RuntimeException{
     public PersonNotFound(String message){
