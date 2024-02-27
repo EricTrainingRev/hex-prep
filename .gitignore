@@ -140,4 +140,7 @@ testing/.idea/
 
 testing/src/test/resources/chromedriver.exe
 
+testNG-examples/.gitignore
+testNG-examples/.idea/
+
 # End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,jetbrains+all
