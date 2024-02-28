@@ -1,8 +1,12 @@
 package com.example.selenium;
 
+import com.example.selenium.poms.EnglishHomePom;
+import com.example.selenium.poms.SpanishHomePom;
+import com.example.selenium.poms.WikiHomePom;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +27,12 @@ public class TestRunner {
 
     public static WebDriver driver;
 
+    public static WikiHomePom wikiHomePom;
+
+    public static EnglishHomePom englishHomePom;
+
+    public static SpanishHomePom spanishHomePom;
+
     public static WebDriverWait wait;
 
     @BeforeClass
@@ -34,6 +44,17 @@ public class TestRunner {
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         // this tells the driver to wait for whatever condition we specify in our step code
         wait = new WebDriverWait(driver, 1);
+        // this will initialize our Wikipedia home page representation in our code
+        // and provides our driver to the POM
+        wikiHomePom = new WikiHomePom(driver);
+        englishHomePom = new EnglishHomePom(driver);
+        spanishHomePom = new SpanishHomePom(driver);
+
+    }
+
+    @AfterClass
+    public static void teardown(){
+        driver.quit();
     }
 
 
@@ -45,9 +66,9 @@ public class TestRunner {
     // added this main method to validate driver was working
     // need correct version of driver to make manual setup work, managed option is easier to work with
     // but not always an option, depending on the company
-    public static void main(String[] args) {
-        setUpDriverAutomatically();
-    }
+//    public static void main(String[] args) {
+//        setUpDriverManually();
+//    }
 
     public static void setUpDriverManually(){
         try{
